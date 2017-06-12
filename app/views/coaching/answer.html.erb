@@ -1,0 +1,22 @@
+<h1>Coaching#answer</h1>
+
+<h3>You said: </h3>
+<h3> <%= "#{@input}" %> </h3>
+
+
+
+<h3>What do you want?</h3>
+
+<h3> <%= "#{@query}" %> </h3>
+
+<!-- <form action="/answer" method="get">
+  <input type="text" name="query" placeholder="What do you want">
+  <input type="submit">
+</form>
+ -->
+
+<%= link_to "Ask another Question", ask_path %>
+
+<!-- Your question to your coach should be given as a parameter named :query. Ex: GET /answer?query=hello or GET /answer?query=what+should+i+do?.
+
+ -->
